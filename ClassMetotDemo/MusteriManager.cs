@@ -9,13 +9,13 @@ namespace ClassMetotDemo
         public void Add(Musteri musteri)
         {
             Console.WriteLine(musteri.Id +"-" + musteri.Ad + "-"+ musteri.Soyad + "-"+ musteri.Meslek);
-            Console.WriteLine("Musteriler eklendi");
+            Console.WriteLine("\n Musteriler eklendi");
             Console.WriteLine("** \n");
         }
         public void Listele(Musteri musteri) 
         {
             Console.WriteLine(musteri.Id + "\n" + musteri.Ad + "\n" + musteri.Soyad +"\n" + musteri.Meslek);
-            Console.WriteLine("Musteriler listelendi.");
+            Console.WriteLine("\n Musteriler listelendi.");
             Console.WriteLine("** \n");
         }
         public void Sil(Musteri musteri)
