@@ -43,21 +43,51 @@ namespace ClassMetotDemo
                 musteri.Add(musteri1);
                 musteri.Add(musteri2);
                 musteri.Add(musteri3);
-                goto islem;
+                Console.WriteLine("devam etmek isterseniz 'E' istemezseniz 'H' yi tuşlayınız.");
+                string sonuc = Console.ReadLine();
+                if (sonuc=="E")
+                {
+                    goto islem;
+                }
+                else if (sonuc=="H")
+                {
+                    Console.WriteLine("İşlem sonlandırıldı.");
+                    Console.ReadLine();
+                }
             }
             else if (cozum==2)
             {
                 musteri.Listele(musteri1);
                 musteri.Listele(musteri2);
                 musteri.Listele(musteri3);
-                goto islem;
+                Console.WriteLine("devam etmek isterseniz 'E' istemezseniz 'H' yi tuşlayınız.");
+                string sonuc = Console.ReadLine();
+                if (sonuc=="E")
+                {
+                    goto islem;
+                }
+                else if (sonuc=="H")
+                {
+                    Console.WriteLine("İşlem sonlandırıldı.");
+                    Console.ReadLine();
+                }
             }
             else if (cozum==3)
             {
                 musteri.Sil(musteri1);
                 musteri.Sil(musteri2);
                 musteri.Sil(musteri3);
-                goto islem;
+                Console.WriteLine("devam etmek isterseniz 'E' istemezseniz 'H' yi tuşlayınız.");
+                string sonuc = Console.ReadLine();
+                if (sonuc=="E")
+                {
+                    goto islem;
+                }
+                else if (sonuc=="H")
+                {
+                    Console.WriteLine("İşlem sonlandırıldı.");
+                    Console.ReadLine();
+                }
             }
             else
             {
